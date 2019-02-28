@@ -190,9 +190,12 @@ p.lead {
   margin-bottom: 1.5rem;
   margin-top: 1rem; }
 
+#footContact {
+  color: black; }
+
 .network a {
   font-size: 4.5em;
-  padding: 3rem; }
+  padding: 0 3rem; }
   .network a .fa-linkedin {
     color: #0077B5; }
   .network a .fa-github {
@@ -253,7 +256,7 @@ hr.light-100 {
   #program-language {
     height: 15vh;
     padding: 11px 23px 5px; } }
-@media (max-width: 576px) {
+@media (max-width: 768px) and (max-width: 576px) {
   .carousel-caption {
     top: 40%; }
 
@@ -276,6 +279,15 @@ hr.light-100 {
     padding-top: 1em; }
 
   #program-language {
-    height: 20vh; } }
+    height: 20vh; }
+
+  .earth {
+    margin-right: 0em; }
+
+  .col-lg-6 {
+    margin-right: 0.5rem; }
+
+  .bs-calltoaction {
+    padding: 0px 250px; } }
 
 /*# sourceMappingURL=main.css.map */
