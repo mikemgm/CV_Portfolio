@@ -1,69 +1,3 @@
-
-// body {
-//     margin: 100px 0 0 0;
-//     padding: 0; 
-
-//     a:hover {
-//         background-color: transparent; // resets bootstrap's black background color
-//         text-decoration: none; }}
-
-// .alert {
-//     width: 25%;
-//     margin: 5em auto 1em;
-//     text-align: center; }
-
-// .devise-container, .form-group {
-//     margin: 0 auto; 
-//     width: 35%; }
-
-// .margin-bottom {
-//     margin-bottom: 1em; }
-
-// .hide {
-//     display: none;
-// } 
-
-// .field_with_errors {	
-//   padding: 2px;	
-//   background-color: red;	
-//   display: table;	}	
-
-// #error_explanation {	
-//   width: 450px;	
-//   padding: 7px 7px 0;	
-//   margin-bottom: 20px;	
-//   background-color: #f0f0f0;	
-//   border: 2px solid red;	
-  
-//   h2 {	
-//    text-align: left;	
-//    font-weight: bold;	
-//    padding: 5px 5px 5px 15px;	
-//    font-size: 12px;	
-//    margin: -7px -7px 0;	
-//    background-color: #c00;	
-//    color: #fff;	}	
-
-//   ul li {	
-//       font-size: 12px;	
-//       list-style: square; }}
-    
-// a {	
-    	
-//      &:hover {	
-//       color: #1F6ABC;	
-//       }	
-
-//     &.active {
-//       font-weight: 700;
-//       color: #1F6ABC; }} 
-
-// ************************************************************************************* 
-
-
-
-
-
 html, body{
     height: 100%; 
     width: 100%; 
@@ -102,54 +36,81 @@ html, body{
  
     .carousel-inner img{
         width: 100%;
-        height: 100%;
-    }
-    
-    .carousel-caption{
-        position: absolute; 
-        top: 50%;
-        transform: translateY(-50%)
-    }
-    
-    .carousel-caption h1{
-        font-size: 500%;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 15px #000; 
-    }
-    
-    .carousel-caption h3{
-        font-size: 225%;
-        font-weight: 500;
-        text-shadow: 1px 1px 15px #000; 
-        padding-bottom: 1rem;
-    }
-    
-    .btn-primary{
-        background-color: #04bbb0;
-        border: 1px solid  #04bbb0;
-       
+        height: 100%; 
     } 
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: rgb(237, 240, 206);
+  background-size: 100%, 100%;
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: grey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: grey;
+}
     
-    .btn-primary:hover{
-        background-color: #04bbb0;
-        border: 1px solid  #04bbb0;
+    // .carousel-caption{
+    //     position: absolute; 
+    //     top: 50%;
+    //     transform: translateY(-50%)
+    // }
+    
+    // .carousel-caption h1{
+    //     font-size: 500%;
+    //     text-transform: uppercase;
+    //     text-shadow: 1px 1px 15px #000; 
+    // }
+    
+    // .carousel-caption h3{
+    //     font-size: 225%;
+    //     font-weight: 500;
+    //     text-shadow: 1px 1px 15px #000; 
+    //     padding-bottom: 1rem;
+    // }
+    
+    // .btn-primary{
+    //     background-color: #04bbb0;
+    //     border: 1px solid  #04bbb0;
+       
+    // } 
+    
+    // .btn-primary:hover{
+    //     background-color: #04bbb0;
+    //     border: 1px solid  #04bbb0;
+    // }
+    
+    // #btn-hero{
+    //     margin-top: 1rem; 
+    //     color: #fff;
+    
+    // a {	
+    //     color: #fff;	
+    //      &:visited {	
+    //       color: #fff;	
+    //     }	
+    //      &:hover {	
+    //       color: #fff;	
+    //       }	
+    // }
+    // }
+    
+    #i4cCover{
+        background-color:linear-gradient(rgba(11, 129, 158, 0.6),rgba(170, 59, 221, 0.2))
     }
-    
-    #btn-hero{
-        margin-top: 1rem; 
-        color: #fff;
-    
-    a {	
-        color: #fff;	
-         &:visited {	
-          color: #fff;	
-        }	
-         &:hover {	
-          color: #fff;	
-          }	
-    }
-    }
-    
     .mentee a{
         :visited{
             color: #fff;
@@ -239,7 +200,7 @@ html, body{
     .bs-calltoaction{
         position: absolute;
         width:auto;
-        padding: 15px 426px;
+        padding: 15px 430px;
         border: 1px solid black;
         margin-top: 130px;
         margin-bottom: 10px;
@@ -323,6 +284,23 @@ html, body{
     #join{
         margin-bottom: 1.5rem;
         margin-top: 1rem;
+    } 
+
+    #quoteFooter{
+        background-color: rgba(13, 113, 153, 0.993)
+    } 
+
+    #authorFooter{
+        background-color: rgb(98, 194, 197);
+        padding-top: 1rem;
+    } 
+    .blockquote-footer::before{
+        color: white; 
+        
+    }
+    #cite{
+        color: white;
+        font-size: 115%
     }
 
     #footContact{
@@ -375,7 +353,7 @@ html, body{
     // }
     
     footer{
-        background-color: #e6e6e6;
+        background-color: whitesmoke ;
         color:#d5d5d5;
         padding-top: 2rem;
     }
@@ -408,13 +386,13 @@ html, body{
     }
     
     @media (max-width: 768px){
-        .carousel-caption{ 
-            top: 45%;
+        // .carousel-caption{ 
+        //     top: 45%;
             
-        } 
-        .carousel-caption h1{
-            font-size: 350% 
-        }
+        // } 
+        // .carousel-caption h1{
+        //     font-size: 350% 
+        // }
         h3{
             font-size: 140%;
             font-weight: 400;
@@ -431,9 +409,34 @@ html, body{
             padding-top: 1em;
         } 
         #program-language{
-            height: 15vh;
+            height: 12vh;
             padding: 11px 23px 5px;
         } 
+        .earth{
+            margin-right: 0em;
+            width: 50%;
+            margin-top: 3rem;
+            border-style: groove;
+        } 
+
+        #fixed{
+            height: 37vh;
+        }
+
+
+        .bs-calltoaction{
+            position: absolute;
+            width: auto;
+            padding: 5px 260px;
+            border: 1px solid black;
+            margin-top: 115px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        } 
+        #jumbotron{
+            justify-content: center;
+        }
+    } 
        
     
     
@@ -461,7 +464,7 @@ html, body{
             padding-top: 1em;
         } 
         #program-language{
-            height: 20vh;
+            height: 15vh;
         } 
         .earth{
             margin-right: 0em;
@@ -470,8 +473,17 @@ html, body{
         margin-right: 0.5rem;
         } 
         .bs-calltoaction{
-            padding: 0px 250px;
+            padding: 0px 90px;
+            position: absolute;
+            width: auto;
+            border: 1px solid black;
+            margin-top: 68px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        } 
+        #fixed {
+            margin: 0 0 4rem;
         }
     } 
-} 
-    
+ 
+   
