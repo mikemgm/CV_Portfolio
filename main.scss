@@ -3,6 +3,7 @@ html, body{
     width: 100%; 
     font-family: 'Poppins', sans-serif;
     color: #222;
+    scroll-behavior: smooth;
     }
 
 .navbar{
@@ -63,17 +64,18 @@ html, body{
   color: grey;
 }
     
-    // .carousel-caption{
-    //     position: absolute; 
-    //     top: 50%;
-    //     transform: translateY(-50%)
-    // }
+    .carousel-caption{
+        position: absolute; 
+        top: 50%;
+        transform: translateY(-50%)
+    }
     
-    // .carousel-caption h1{
-    //     font-size: 500%;
-    //     text-transform: uppercase;
-    //     text-shadow: 1px 1px 15px #000; 
-    // }
+    .carousel-caption h1{
+        font-size: 370%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+        margin-top: 16rem;
+    }
     
     // .carousel-caption h3{
     //     font-size: 225%;
@@ -123,6 +125,7 @@ html, body{
     
     #jumbotron{
         text-align: center;
+        
     } 
 
     #hello{
@@ -386,13 +389,14 @@ html, body{
     }
     
     @media (max-width: 768px){
-        // .carousel-caption{ 
-        //     top: 45%;
+        .carousel-caption{ 
+            top: 45%;
             
-        // } 
-        // .carousel-caption h1{
-        //     font-size: 350% 
-        // }
+        } 
+         .carousel-caption h1{
+            font-size: 220%;
+            margin-top: 9rem;
+        }
         h3{
             font-size: 140%;
             font-weight: 400;
@@ -410,11 +414,11 @@ html, body{
         } 
         #program-language{
             height: 12vh;
-            padding: 11px 23px 5px;
+            padding: 20px 23px 5px;
         } 
         .earth{
             margin-right: 0em;
-            width: 50%;
+            width: 40%;
             margin-top: 3rem;
             border-style: groove;
         } 
@@ -446,7 +450,8 @@ html, body{
             
         } 
         .carousel-caption h1{
-            font-size: 250% 
+            font-size: 220%;
+            margin-top: 4rem;
         }
         h3{
             font-size: 110%;
@@ -473,17 +478,27 @@ html, body{
         margin-right: 0.5rem;
         } 
         .bs-calltoaction{
-            padding: 0px 90px;
+            padding: 0px 35px;
             position: absolute;
             width: auto;
             border: 1px solid black;
-            margin-top: 68px;
+            margin-top: 59px;
             margin-bottom: 10px;
             border-radius: 5px;
         } 
         #fixed {
             margin: 0 0 4rem;
         }
+        #philosophy{
+            margin-left: 1rem;
+            margin-top: 0rem;
+    
+        }
+        #aboutme{
+            font-size: 1.1rem; 
+            text-align: left;
+    
+        } 
     } 
  
    
