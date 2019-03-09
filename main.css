@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #222;
   scroll-behavior: smooth; }
 
@@ -25,6 +25,9 @@ html, body {
   height: 69px;
   width: 110px;
   margin-top: -13px; }
+
+#slides {
+  margin-top: 5rem; }
 
 .carousel-inner img {
   width: 100%;
@@ -77,6 +80,13 @@ html, body {
 #fun-fact {
   font-style: italic; }
 
+#speciality {
+  font-weight: 900; }
+
+#webTools {
+  font-weight: 900;
+  font-size: 1.7rem; }
+
 .social {
   padding-top: 2rem; }
   .social hr {
@@ -121,7 +131,7 @@ p.lead {
 .bs-calltoaction {
   position: absolute;
   width: auto;
-  padding: 15px 430px;
+  padding: 15px 450px;
   border: 1px solid black;
   margin-top: 130px;
   margin-bottom: 10px;
@@ -204,10 +214,11 @@ p.lead {
   font-size: 115%; }
 
 #footContact {
-  color: black; }
+  color: black;
+  margin-bottom: 2.5rem; }
 
 .network a {
-  font-size: 4.5em;
+  font-size: 5rem;
   padding: 0 3rem; }
   .network a .fa-linkedin {
     color: #0077B5; }
@@ -245,12 +256,15 @@ hr.light-100 {
     font-size: 4em;
     padding: 2rem; } }
 @media (max-width: 768px) {
+  #slides {
+    margin-top: 82px; }
+
   .carousel-caption {
     top: 45%; }
 
   .carousel-caption h1 {
-    font-size: 220%;
-    margin-top: 9rem; }
+    font-size: 350%;
+    margin-top: 10rem; }
 
   h3 {
     font-size: 140%;
@@ -261,8 +275,8 @@ hr.light-100 {
     font-size: 200%; }
 
   .network a {
-    font-size: 2.5em;
-    padding: 1.2rem; }
+    font-size: 5rem;
+    padding: 3.5rem; }
 
   .program-item {
     padding-top: 1em; }
@@ -292,6 +306,9 @@ hr.light-100 {
   #jumbotron {
     justify-content: center; } }
 @media (max-width: 576px) {
+  #slides {
+    margin-top: 75px; }
+
   .carousel-caption {
     top: 40%; }
 
@@ -306,8 +323,8 @@ hr.light-100 {
     display: none; }
 
   .network a {
-    font-size: 2em;
-    padding: .7rem; }
+    font-size: 3.5rem;
+    padding: 1.7rem; }
 
   .program-item {
     display: flex;
