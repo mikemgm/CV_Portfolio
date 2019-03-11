@@ -358,6 +358,10 @@ hr.light-100 {
 
   #aboutme {
     font-size: 1.1rem;
-    text-align: left; } }
+    text-align: left; }
+
+  #authorFooter {
+    margin: 0 3rem 0;
+    font-size: 90%; } }
 
 /*# sourceMappingURL=main.css.map */
