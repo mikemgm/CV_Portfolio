@@ -25,6 +25,7 @@ html, body{
     .nav-link {
         font-size: 1.1em !important;
     }
+    
 .navbar-brand{
     max-height: 50px;
 }
@@ -516,6 +517,11 @@ html, body{
             text-align: left;
     
         } 
+        #authorFooter{
+            margin: 0 3rem 0;
+            font-size: 90%
+        }
+        
     } 
  
    
