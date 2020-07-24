@@ -107,7 +107,7 @@ p.lead {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 65vh; }
+  height: 50vh; }
 
 .col-lg-6 {
   margin-top: 4rem; }
@@ -133,7 +133,7 @@ p.lead {
 
 .bs-calltoaction {
   position: absolute;
-  width: auto;
+  width: 100%;
   padding: 15px 450px;
   border: 1px solid black;
   margin-top: 130px;
